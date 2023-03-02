@@ -1,46 +1,66 @@
-# Getting Started with Create React App
+# Random things I like to do
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project's Title
 
-## Available Scripts
+How does a heart beat?
 
-In the project directory, you can run:
+## Description
 
-### `npm start`
+Requirements
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. Display a list of all characters that can be navigated, paginated, sorted, and searched easily (e.g a
+   table with paginations, filters, and search box).
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+2. By clicking a character on the list, user should be able to navigate to a view with more details
+   about the character, and the view should include the following details of the character
+   a. name, description, and image
+   b. list of stories, events, and series that the character appears in
 
-### `npm test`
+3. Responsiveness - - the web view should be both desktop and mobile friendly
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- On mobile device, the image of character should occupy full width of the screen, with a
+  margin of 20px. And the resolution should be proportional to its original dimensions.
+- On desktop, the image of character should always fit a square of 750px with the original
+  resolution which should not be cropped or stretched.
 
-### `npm run build`
+4. The application can be able to be initiated on command line
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- You can use any third-party framework or libraries.
+- You can add any improvement in functionality perspective you want as a bonus.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### What does the application do
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Technologies I use in the App
 
-### `npm run eject`
+- React
+- Typescript
+- Style-Components
+- React testing library
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Some challenge that I have faced
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## How to use the App
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Install
 
-## Learn More
+Please to install use `npm`:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+npm install
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Run the application
+
+```
+npm run start
+```
+
+## For testing
+
+```
+yarn testing
+```
+
+## Bibliography
